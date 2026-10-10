@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpeciesDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/model/species_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "settler"
+display_name = "Settler"
+maturity = 16
+lifespan = 85
+birth_chance = 0.08
+birth_cooldown = 192
+forms_villages = true
+sprite = "settler"
+variants = PackedStringArray("Lowland folk", "Meadowfolk", "Woodland folk", "Frostfolk")

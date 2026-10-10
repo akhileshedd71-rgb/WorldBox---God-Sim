@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpeciesDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/model/species_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rabbit"
+display_name = "Rabbit"
+maturity = 2
+lifespan = 16
+birth_chance = 0.018
+birth_cooldown = 120
+forms_villages = false
+sprite = "rabbit"
+variants = PackedStringArray("Common rabbit", "Clover rabbit", "Moss rabbit", "Frost rabbit")

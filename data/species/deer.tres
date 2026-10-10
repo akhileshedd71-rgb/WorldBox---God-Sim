@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpeciesDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/model/species_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "deer"
+display_name = "Deer"
+maturity = 3
+lifespan = 32
+birth_chance = 0.018
+birth_cooldown = 120
+forms_villages = false
+sprite = "deer"
+variants = PackedStringArray("Common deer", "Meadow deer", "Woodland deer", "Tundra deer")
